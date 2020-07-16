@@ -42,3 +42,17 @@ The only thing I can think of is that `rand.Intn(2)`
 is very slightly biased.
 So I wrote [a program ](intntest.go) to test that.
 It's not biased that I can tell.
+
+As far as interview questions go,
+it won't test any programming knowledge.
+The question is phrased in a way that the candidate gets
+nudged towards maybe calculating log<sub)2</sub> of numbers.
+Unless the position is for numerical analyst,
+you don't want this.
+Even if someone writes the same sort of simulation I did,
+there's very little programming,
+no room for the candidate to riff on test cases,
+corner cases or potential optimizations.
+It doesn't even demand much error handling.
+
+A silly question for an interview.
