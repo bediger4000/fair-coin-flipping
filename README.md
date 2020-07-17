@@ -28,6 +28,7 @@ and goes on to do 10,000 iterations of the rounds of flipping n coins
 as described above.
 
 ```
+% go build faircoins.go
 % ./faircoins 256
 256 fair coins, log2(256) = 8.000000
 10000 iterations gives 7.879900 average attempts
