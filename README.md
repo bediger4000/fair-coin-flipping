@@ -22,9 +22,10 @@ finding the searched-for item.
 
 You could also reason that (most times) half the coins turn up heads,
 and thus get eliminated.
+How many halvings does it take to get to 1?
 
 I went on to write [a program](main.go) that tells you log<sub>2</sub>(n),
-and goes on to do 10,000 iterations of the rounds of flipping n coins
+and then does 10,000 iterations of the rounds of flipping n coins
 as described above.
 
 ```
@@ -37,7 +38,7 @@ as described above.
 The simulation always comes out lower than log<sub>2</sub>(n),
 even if you do many more than 10,000 iterations of rounds of coin flipping.
 I really don't know why.
-The simulation can "overshoot" (more rounds) as well as "undershoot"
+The simulation can "overshoot" (more rounds than predicted) as well as "undershoot"
 (fewer rounds than predicted), so it's not a systemic problem.
 The only thing I can think of is that `rand.Intn(2)`
 is very slightly biased.
@@ -56,4 +57,7 @@ no room for the candidate to riff on test cases,
 corner cases or potential optimizations.
 It doesn't even demand much error handling.
 
-A silly question for an interview.
+If you used it as one question of several,
+it might work,
+but otherwise,
+a silly question for an interview.
