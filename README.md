@@ -48,7 +48,7 @@ It's not biased that I can tell.
 As far as interview questions go,
 it won't test any programming knowledge.
 The question is phrased in a way that the candidate gets
-nudged towards maybe calculating log<sub)2</sub> of numbers.
+nudged towards maybe calculating log<sub>2</sub> of numbers.
 Unless the position is for numerical analyst,
 you don't want this.
 Even if someone writes the same sort of simulation I did,
