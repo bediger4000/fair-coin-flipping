@@ -13,6 +13,14 @@ play until one coin remains.
 
 ## Analysis
 
+The problem statement emphasises "fair coins",
+which appears to have a [precise technical meaning](https://en.wikipedia.org/wiki/Fair_coin).
+What about unfair coins?
+Looks like it's [surprisingly hard](https://izbicki.me/blog/how-to-create-an-unfair-coin-and-prove-it-with-math.html)
+to actually make a biased coin, at least by bending the coin.
+If you limit yourself to disk (short cylinder) coins,
+it just might be [impossible](http://www.stat.columbia.edu/~gelman/research/published/diceRev2.pdf).
+
 Based on eliminating half the coins at each mass flip,
 you'd expect to make log<sub>2</sub>(n) rounds before only one 
 coin remains.
